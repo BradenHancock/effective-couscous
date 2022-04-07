@@ -26,7 +26,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "iProov",
-            url: "https://github.com/BradenHancock/spm-test/raw/main/iProov.xcframework.zip",
+            url: "https://github.com/BradenHancock/effective-couscous/raw/main/iProov.xcframework.zip",
             checksum: "bff20f5281b89e407efd988e5435f45c9029a49b926409ab8c7170499ef0077b"
         ),
     ]
