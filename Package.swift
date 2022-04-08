@@ -8,20 +8,20 @@ let package = Package(
             name: "iProov",
             targets: ["iProov"]
         ),
-        .library(
-            name: "SocketIO",
-            type: .dynamic,
-            targets: ["SocketIO"]
-        ),
+//        .library(
+//            name: "SocketIO",
+//            type: .dynamic,
+//            targets: ["SocketIO"]
+//        ),
     ],
     dependencies: [
-        .package(url: "https://github.com/daltoniam/Starscream", .upToNextMinor(from: "4.0.0")),
+        .package(url: "https://github.com/socketio/socket.io-client-swift", .upToNextMinor(from: "16.0.1"))
     ],
     targets: [
-        .target(
-            name: "SocketIO",
-            dependencies: ["Starscream"]
-        ),
+//        .target(
+//            name: "SocketIO",
+//            dependencies: ["Starscream"]
+//        ),
         .binaryTarget(
             name: "iProov",
             url: "https://github.com/BradenHancock/effective-couscous/raw/main/iProov.xcframework.zip",
