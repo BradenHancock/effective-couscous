@@ -8,11 +8,11 @@ let package = Package(
             name: "iProov",
             targets: ["iProov"]
         ),
-//        .library(
-//            name: "SocketIO",
-//            type: .dynamic,
-//            targets: ["SocketIO"]
-//        ),
+        .library(
+            name: "SocketIO",
+            type: .dynamic,
+            targets: ["SocketIO"]
+        ),
     ],
     dependencies: [
         .package(url: "https://github.com/socketio/socket.io-client-swift", .upToNextMinor(from: "16.0.1"))
