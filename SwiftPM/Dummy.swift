@@ -1,5 +1,5 @@
 public class Dummy {
-    func doSomething() {
+    public func doSomething() {
         print("Hey Dummy!")
     }
 }
