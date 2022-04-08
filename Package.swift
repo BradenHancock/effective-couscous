@@ -1,7 +1,12 @@
 // swift-tools-version:5.3
+
 import PackageDescription
+
 let package = Package(
     name: "iProov",
+    platforms: [
+        .iOS(.v10)
+    ],
     products: [
         .library(
             name: "iProov",
@@ -25,12 +30,8 @@ let package = Package(
                 .target(name: "iProov", condition: .when(platforms: .some([.iOS]))),
                 .target(name: "SocketIO", condition: .when(platforms: .some([.iOS])))
             ],
-            path: "SwiftPM"
+            path: "iProovTargets"
         )
     ],
     swiftLanguageVersions: [.v5]
 )
-
-//dependencies: [
-//    .package(url: "https://github.com/socketio/socket.io-client-swift", .upToNextMinor(from: "16.0.1"))
-//],
