@@ -11,7 +11,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/socketio/socket.io-client-swift", .upToNextMinor(from: "16.0.1"))
-         // TODO: COnsider adding starscream here if it doesnt work
     ],
     targets: [
         .binaryTarget(
@@ -22,7 +21,6 @@ let package = Package(
         .target(name: "iProovWrapper",
             dependencies: [
                 .product(name: "SocketIO", package: "socket.io-client-swift")
-                // TODO: COnsider adding starscream here if it doesnt work
             ],
             path: "./SwiftPM"
         )
