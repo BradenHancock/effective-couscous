@@ -1,5 +1,4 @@
 // swift-tools-version:5.3
-
 import PackageDescription
 
 let package = Package(
@@ -16,7 +15,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/daltoniam/Starscream", .upToNextMinor(from: "3.1.0")),
+        .package(url: "https://github.com/daltoniam/Starscream", .upToNextMinor(from: "4.0.0")),
     ],
     targets: [
         .target(
