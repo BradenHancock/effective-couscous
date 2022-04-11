@@ -20,7 +20,7 @@ let package = Package(
         .binaryTarget(
             name: "iProov",
             url: "https://github.com/BradenHancock/effective-couscous/raw/main/iProov.xcframework.zip",
-            checksum: "a37807600b6fa386bf42388cc4f43c84f2fb67a84e884dd4ec5667d0dba33430"
+            checksum: "4b31d93d459d23307d5573e27767ffbeb647c1274617461c83e70b8a6b42d6c4"
         ),
         .binaryTarget(
             name: "SocketIO",
