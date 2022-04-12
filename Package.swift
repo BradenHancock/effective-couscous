@@ -25,7 +25,7 @@ let package = Package(
         .binaryTarget(
             name: "SocketIO",
             url: "https://github.com/BradenHancock/effective-couscous/raw/main/SocketIO.xcframework.zip",
-            checksum: "ae3fa8e353494851f9e1a6351a28635e8cbd210d744413d3481ededc01582cc4"
+            checksum: "46493c241d543954a58c519ef5cdd675310f37bc81f98506ffe033c2597f8fe8"
         ),
         .binaryTarget(
             name: "Starscream",
