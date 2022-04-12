@@ -30,7 +30,7 @@ let package = Package(
         .binaryTarget(
             name: "Starscream",
             url: "https://github.com/BradenHancock/effective-couscous/raw/main/Starscream.xcframework.zip",
-            checksum: "bfcab1c2aa13351029e2983bbe7a50ec30eb0fdc812ae611d681f6a4c2574de1"
+            checksum: "321e6b5833c57a945bcfd35209d2369227045f9e3ae40a83023f1a152d037723"
         ),
         .target(name: "iProovTargets",
             dependencies: [
