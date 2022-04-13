@@ -1,8 +1,5 @@
 // swift-tools-version:5.3
 
-// Trying to replicate this method https://forums.swift.org/t/swiftpm-binary-target-with-sub-dependencies/40197/7
-// using binary targets, and using SpmTestApp to integrate (but it has errors)
-
 import PackageDescription
 
 let package = Package(
