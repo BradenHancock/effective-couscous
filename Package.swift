@@ -22,12 +22,12 @@ let package = Package(
         .binaryTarget(
             name: "SocketIO",
             url: "https://github.com/BradenHancock/effective-couscous/raw/main/SocketIO.xcframework.zip",
-            checksum: "46493c241d543954a58c519ef5cdd675310f37bc81f98506ffe033c2597f8fe8"
+            checksum: "628c602223c9f0d6185a7d326644b4e6be4fa6cbd4b4ac32605feabd97485bd1"
         ),
         .binaryTarget(
             name: "Starscream",
             url: "https://github.com/BradenHancock/effective-couscous/raw/main/Starscream.xcframework.zip",
-            checksum: "321e6b5833c57a945bcfd35209d2369227045f9e3ae40a83023f1a152d037723"
+            checksum: "f6e504c46895f4cb86877976cc70ace0d8f19cc65af9c0d13b107b05c9c98b8d"
         ),
         .target(name: "iProovTargets",
             dependencies: [
